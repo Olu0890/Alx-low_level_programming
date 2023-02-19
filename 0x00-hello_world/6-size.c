@@ -6,13 +6,13 @@
  * Return: Always (0) (success)
  */
 
-init main(void)
+int main(void)
 {
-	printf("size of a char: %d byte(s)" / n, size of a (char));
-	printf("size of a int: %d byte(s)" / n, size of a (int));
-	printf("size of a long int: %d byte(s)" / n, size of a (long int));
-	printf("size of a long long: %d byte(s)" / n, size of a (long long));
-	printf("size of a float: %d byte(s)" / n, size of a (float));
+	printf("size of a char: %d byte(s)", sizeof(char));
+	printf("size of an int: %d byte(s)", sizeof(int));
+	printf("size of a long int: %d byte(s)", sizeof(long int));
+	printf("size of a long-long int: %d byte(s)", sizeof(long-long int));
+	printf("size of a float: %d byte(s)", sizeof(float));
 
-	retun (0);
+	return(0);
 }
