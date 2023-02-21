@@ -14,7 +14,7 @@ int main(void)
 
 	for (q = 0; q < 10; q++)
 	{
-		printf("%\d"", q);
+		printf("%\d", q);
 	}
 	printf('\n');
 
