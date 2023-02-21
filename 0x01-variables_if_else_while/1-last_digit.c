@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * description:'last digit of the number stored'
+ * Description:'last digit of the number stored'
  *
- * return: Always 0
+ * Return: Always 0
  */
 
 int main(void)
@@ -30,7 +30,7 @@ int main(void)
 		printf("last digit of %d is %d and is less than 6 and not 0", n, m);
 	}
 
-	printf("\n");
+	printf('\n');
 
 	return (0);
 }
