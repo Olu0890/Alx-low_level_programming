@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * deacription: 'prints in lowercase'
+ * deacription: 'prints lowercase alphabet and a newline'
  *
- * return: Alwsys 0
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int i;
